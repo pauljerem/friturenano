@@ -1,0 +1,8 @@
+sounddevice==0.4.1
+rtmixer==0.1.2
+PyOpenGL==3.1.5
+PyOpenGL-accelerate==3.1.5
+docutils==0.16
+numpy==1.19.3
+appdirs==1.4.4
+pyrr==0.10.3
