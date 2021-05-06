@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Friture</string>
+   <string>friturenano</string>
   </property>
   <property name="windowIcon">
    <iconset resource="../resources/friture.qrc">
@@ -38,7 +38,6 @@
    <addaction name="actionStart"/>
    <addaction name="actionNew_dock"/>
    <addaction name="actionSettings"/>
-   <addaction name="actionAbout"/>
   </widget>
   <action name="actionStart">
    <property name="checkable">
@@ -75,15 +74,6 @@
    </property>
    <property name="toolTip">
     <string>Display settings dialog</string>
-   </property>
-  </action>
-  <action name="actionAbout">
-   <property name="icon">
-    <iconset resource="../resources/friture.qrc">
-     <normaloff>:/images-src/window-icon.svg</normaloff>:/images-src/window-icon.svg</iconset>
-   </property>
-   <property name="text">
-    <string>About Friture</string>
    </property>
   </action>
   <action name="actionNew_dock">

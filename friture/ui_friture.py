@@ -15,7 +15,7 @@ class Ui_MainWindow(object):
 
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(869, 573)
+        MainWindow.setFixedSize(873, 786)
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap(":/images-src/window-icon.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
@@ -45,7 +45,7 @@ class Ui_MainWindow(object):
         self.actionSettings.setObjectName("actionSettings")
         self.actionAbout = QtWidgets.QAction(MainWindow)
         self.actionAbout.setIcon(icon)
-        self.actionAbout.setObjectName("actionAbout")
+        #self.actionAbout.setObjectName("actionAbout")
         self.actionNew_dock = QtWidgets.QAction(MainWindow)
         icon3 = QtGui.QIcon()
         icon3.addPixmap(QtGui.QPixmap(":/images-src/new-dock.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -54,14 +54,14 @@ class Ui_MainWindow(object):
         self.toolBar.addAction(self.actionStart)
         self.toolBar.addAction(self.actionNew_dock)
         self.toolBar.addAction(self.actionSettings)
-        self.toolBar.addAction(self.actionAbout)
+        #self.toolBar.addAction(self.actionAbout)
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Friture"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "friturenano"))
         self.toolBar.setWindowTitle(_translate("MainWindow", "toolBar"))
         self.actionStart.setText(_translate("MainWindow", "Stop"))
         self.actionStart.setToolTip(_translate("MainWindow", "Start/Stop"))
